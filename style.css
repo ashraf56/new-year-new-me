@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+/* heade section css */
+header{
+    width: 100%;
+    height: 700px;
+    background-image: url(images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+header section {
+ width:70% ;
+ height: auto;
+ text-align: right;
+ justify-content: space-between;
+ display: flex;
+ margin: auto;
+
+ color: white;
+ padding: 145px 0;
+}
+
+header section  h1{
+    font-size: 56px;
+    padding-bottom: 10px;
+}
+header section  p{
+    text-align: right;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 23px;
+    padding: 0px 0px  10px 214px;
+}
+
+.btn{
+    width: 150px;
+    height: 48px;
+    background-color: white;
+    color: rgb(0, 76, 255);
+    font-size: 18px;
+    border: none;
+margin-top: 10px;
+    border-radius: 7px;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: rgb(0, 76, 255) ;
+    color:  white;
+    transition: 0.6s;
+}
+
+/* main css  starts*/
+
+.failures{
+    width:100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+justify-content: center;
+
+
+}
+
+.d1 , .d2{
+    width: 35%;
+   margin:50px 20px;
+
+
+}
+
+.d1 img{
+    max-width: 100%;
+    height: auto;
+}
+.d2{
+    padding:70px 0;
+
+
+}
+.d2 p{
+    padding-bottom: 10px;
+    font-size: 15px;
+    line-height: 24px;
+}
+.d2 p i{
+    color: green;
+    padding-left: 2px;
+}
+.d2 h2{
+    font-size: 28px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+/* target section */
+
+.target{
+    width:100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+justify-content: center;
+
+
+
+}
+.d3 , .d4{
+    width: 35%;
+   margin:0px 20px;
+
+
+}
+
+.d4 img{
+    max-width: 100%;
+    height: auto;
+}
+.d3{
+    padding: 60px 0;
+
+}
+.d3 p{
+    padding-bottom: 10px;
+    font-size: 15px;
+    line-height: 24px;
+}
+.d3 p i{
+    color: green;
+    padding-left: 2px;
+}
+.d3 h2{
+    font-size: 28px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+
+/* plans sections */
+
+.plans{
+    width:100%;
+    height: 500px;
+justify-content: center;
+text-align: center;
+
+}
+.plans h1{
+    padding-top: 100px;
+    font-size: xx-large;
+}
+
+.cardbox{
+    display: flex;
+    margin: 100px 100px;
+}
+.card{
+    width: 25%;
+    height: auto;
+
+}
+
+ /* call me section  */
+
+ .call{
+    width:100%;
+    height: 340px;
+   justify-content: center;
+  
+
+ }
+
+ .inside{
+  max-width: 985px;  
+
+   height: 261px;
+    background-image:linear-gradient(to right,rgba(0, 76, 255,0.7),rgba(0, 76, 255,0.1)),
+     url(images/watch.png);
+
+     border-radius: 10px;
+    margin: auto;
+    background-size: 100%;
+    padding: 50px 40px;
+    font-size: 24px;
+    color: white;
+ }
+
+
+ /* footer section */
+
+ footer{
+    width: 100%;
+    height: 500px;
+   
+    background-color:#001524 ;
+ }
+
+.copy{
+    color: white;
+    text-align: center;
+}
+
+.footdiv{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+ .foot1 , .foot2{
+    width: 40%;
+    padding: 40px 100px;
+   
+ }
+ .foot2 ul li {
+list-style-type: none;
+ }
+.foot2 input{
+    width: 268px;
+    height:58px;
+    background-color: #001524;
+    color: white;
+    border-color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 14px;
+    margin: 40px 0 0 0;
+
+    
+}
+
+.foot1 p{
+    line-height: 24px;
+    padding: 5px 0;
+}
